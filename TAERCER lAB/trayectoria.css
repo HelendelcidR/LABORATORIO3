@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--lilapastel)
+}
+/* Inicio menu */
+:root {
+    --cafeclaro: #C6936D;
+    --rosita: #F68983;
+    --lila: #E5B5B1;
+    --marronaranja: #C6631D;
+    --cafe: #662113;
+    --azulclaro: #5F7683;
+    --rosanaranja: #FA4646;
+    --lilapastel: #EDBCFF;
+}
+.header {
+    background-color: rgb(77, 6, 110);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+.menu img{
+    height: 140px;
+    margin-left: -25px;
+}
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 505px;
+    margin-left: 30px;
+}
+.menu a:hover{
+    background-color: var(--lilapastel);
+    transition: 800ns;
+}
+/* Fin menu */
+/* Inicio Trayectoria seerie 3 */
+.header3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 160, 245);
+    height: 100px;
+}
+.titulo{
+   font-family:'Josefin Sans', sans-serif;
+   font-size: 30px;
+   align-items: center;
+}
+.Estudios img{
+    height: 250px;
+    margin-top: -55px;
+}
+.texto img{
+    margin-top: -20px;
+}
+.Estudios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Josefin Sans', sans-serif;
+    background-color: rgb(238, 133, 238);
+    margin-top: 5px;
+}
+.Estudios h2{
+    margin: 25px;
+    font-size: 50px;
+    color: rgb(19, 18, 18);
+}
+.estudios h3{
+    margin: 25px;
+    color: rgb(19, 18, 18);
+}
+.estudios p{
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+    margin-top: -10px;
+    align-items: center;
+}
+.Habilidades{
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    font-family:'Josefin Sans', sans-serif;
+    color: #161616;
+    background-color: rgb(245, 97, 245);
+    margin-top: 5px;
+    height: 200px;
+}
+.Habilidades h2{
+    font-size: 40px;
+    color: rgb(19, 18, 18);
+    margin-left: -180px;
+    margin-right: 50px;
+}
+.Habilidades2 li{
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(19, 18, 18);
+}
